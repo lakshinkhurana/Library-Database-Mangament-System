@@ -1,4 +1,4 @@
-create database library_db;
+create database if not exists library_db;
 use library_db;
 CREATE TABLE Books (
     BookID INT PRIMARY KEY AUTO_INCREMENT,
